@@ -1,0 +1,11 @@
+{
+  "name": "com.funnish-games.custom-game-events",
+  "version": "0.0.0",
+  "displayName": "Custom Game Events",
+  "description": "A flexible but powerful game event package.",
+  "unity": "2022.3",
+  "author": {
+    "name": "Andrew Carver"
+  },
+  "unityRelease": "9f1"
+}

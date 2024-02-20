@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0930c630bc0eff54dbaea3a5000eadc8, type: 3}
+  m_Name: CubeInactive
+  m_EditorClassIdentifier: 
+  stateEnterEvent: {fileID: 11400000, guid: 00cc66d22e0c2e04b9af62e310b17661, type: 2}
+  stateExitEvent: {fileID: 11400000, guid: dfab388bd298fcb43be8749848d294eb, type: 2}

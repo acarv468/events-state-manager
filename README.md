@@ -37,7 +37,6 @@ Building off the Game Event structure, I also designed this package to manage Ga
 
 To install, follow Unity's guide to <a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html" target="blank">Install a UPM package from a Git URL</a> and use the URL from the project's <a href="https://github.com/acarv468/events-state-manager" target="blank">GitHub</a>.
 
-![[unity_game_event_screenshot.png]]
 ## Credits
 
 Here are some great guides that I've consulted to build this package:

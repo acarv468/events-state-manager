@@ -3,7 +3,7 @@
 This package builds off of the custom events package to add in the State Management System.
 a## The Project
 
-This flexible Unity package uses [[ScriptableObject|Scriptable Objects]] to manage Game Events and Game States in Unity. I love using this package because creating and managing new events easy. It can be imported into virtually any Unity project. 
+This flexible Unity package uses Scriptable Objects to manage Game Events and Game States in Unity. I love using this package because creating and managing new events easy. It can be imported into virtually any Unity project. 
 
 ### Why Game Events?
 
@@ -18,20 +18,20 @@ We want to update the UI health bar when the player takes damage. There are a co
 
 ### Taking It Further with Game States
 
-Building off the Game Event structure, I also designed this package to manage Game States. For instance, if I as the developer wanted to track what "state" the game is in such as MainMenu, Combat, Paused, etc. Since I built the package using [[ScriptableObject|Scriptable Objects]], it's easy to scale as many or as few game states as need.
+Building off the Game Event structure, I also designed this package to manage Game States. For instance, if I as the developer wanted to track what "state" the game is in such as MainMenu, Combat, Paused, etc. Since I built the package using ScriptableObjects, it's easy to scale as many or as few game states as need.
 ## How it Works
 
 ### Game Events
 
-`../Events/Scripts/Game Events/GameEvent.cs` creates the GameEvent class as a [[ScriptableObject]] and the functions for raising the event and registering listeners.  
+`../Events/Scripts/Game Events/GameEvent.cs` creates the GameEvent class as a ScriptableObjects and the functions for raising the event and registering listeners.  
 
-`../Events/Scripts/Game Events/GameEventListener.cs` is a [[MonoBehaviour]] that registers itself as a listener, can raise the event, and pass data when the event is raised.
+`../Events/Scripts/Game Events/GameEventListener.cs` is a MonoBehaviour that registers itself as a listener, can raise the event, and pass data when the event is raised.
 
 ### Game States
 
-`../Events/Scripts/Game State/GameStateManager.cs` is a [[MonoBehaviour]] static instance that tracks the current game state and raises an event when the game state changes.
+`../Events/Scripts/Game State/GameStateManager.cs` is a MonoBehaviour static instance that tracks the current game state and raises an event when the game state changes.
 
-`../Events/Scripts/Game State/GameStateObject.cs` creates the GameStateObject class as a [[ScriptableObject]] and the `OnStateEnter()` and `OnStateExit()` functions.
+`../Events/Scripts/Game State/GameStateObject.cs` creates the GameStateObject class as a ScriptableObjects and the `OnStateEnter()` and `OnStateExit()` functions.
 ## Installation
 
 To install, follow Unity's guide to <a href="https://docs.unity3d.com/Manual/upm-ui-giturl.html" target="blank">Install a UPM package from a Git URL</a> and use the URL from the project's <a href="https://github.com/acarv468/events-state-manager" target="blank">GitHub</a>.

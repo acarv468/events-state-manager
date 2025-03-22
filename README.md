@@ -1,7 +1,8 @@
 # Custom Events with State Manager
 
 This package builds off of the custom events package to add in the State Management System.
-a## The Project
+
+## The Project
 
 This flexible Unity package uses Scriptable Objects to manage Game Events and Game States in Unity. I love using this package because creating and managing new events easy. It can be imported into virtually any Unity project. 
 
